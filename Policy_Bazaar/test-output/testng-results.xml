@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="133473" started-at="2021-03-03T10:15:17 IST" finished-at="2021-03-03T10:17:31 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="133473" started-at="2021-03-03T10:15:17 IST" finished-at="2021-03-03T10:17:31 IST">
+      <class name="com.policybazaar.primary.Health_Insurance">
+        <test-method status="PASS" signature="healthInsurance()[pri:3, instance:com.policybazaar.primary.Health_Insurance@7364985f]" name="healthInsurance" duration-ms="40493" started-at="2021-03-03T10:15:50 IST" finished-at="2021-03-03T10:16:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- healthInsurance -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.policybazaar.primary.Health_Insurance@7364985f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-03T10:16:30 IST" finished-at="2021-03-03T10:16:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=healthInsurance status=SUCCESS method=Health_Insurance.healthInsurance()[pri:3, instance:com.policybazaar.primary.Health_Insurance@7364985f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.policybazaar.primary.Health_Insurance -->
+      <class name="com.policybazaar.primary.Travel_Insurance">
+        <test-method status="PASS" signature="travelInsurance()[pri:1, instance:com.policybazaar.primary.Travel_Insurance@5d20e46]" name="travelInsurance" duration-ms="60706" started-at="2021-03-03T10:16:30 IST" finished-at="2021-03-03T10:17:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelInsurance -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.policybazaar.primary.Travel_Insurance@5d20e46]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-03T10:17:31 IST" finished-at="2021-03-03T10:17:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=travelInsurance status=SUCCESS method=Travel_Insurance.travelInsurance()[pri:1, instance:com.policybazaar.primary.Travel_Insurance@5d20e46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.policybazaar.primary.Travel_Insurance@5d20e46]" name="stop" is-config="true" duration-ms="681" started-at="2021-03-03T10:17:31 IST" finished-at="2021-03-03T10:17:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- com.policybazaar.primary.Travel_Insurance -->
+      <class name="com.policybazaar.primary.Car_Insurance">
+        <test-method status="PASS" signature="travelInsurance()[pri:2, instance:com.policybazaar.primary.Car_Insurance@ba8d91c]" name="travelInsurance" duration-ms="32178" started-at="2021-03-03T10:15:17 IST" finished-at="2021-03-03T10:15:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelInsurance -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.policybazaar.primary.Car_Insurance@ba8d91c]" name="afterMethod" is-config="true" duration-ms="12" started-at="2021-03-03T10:15:50 IST" finished-at="2021-03-03T10:15:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=travelInsurance status=SUCCESS method=Car_Insurance.travelInsurance()[pri:2, instance:com.policybazaar.primary.Car_Insurance@ba8d91c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.policybazaar.primary.Car_Insurance -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
